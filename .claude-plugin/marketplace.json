@@ -1,4 +1,5 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "govcon-pursuit-brain",
   "owner": {
     "name": "Daniel Kinney-Spears",
@@ -11,7 +12,10 @@
   "plugins": [
     {
       "name": "govcon-pursuit-brain",
-      "source": "./",
+      "source": {
+        "source": "github",
+        "repo": "danielkinneyspears/govcon-pursuit-brain"
+      },
       "description": "Skills that compile and maintain a per-pursuit knowledge wiki for US Federal capture and proposals, and render proposal artifacts as views over the entity graph."
     }
   ]
