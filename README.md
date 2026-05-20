@@ -1,3 +1,5 @@
+<p align="center"><img src="images/hero.png" alt="GovCon Pursuit Brain — a wiki-native set of Claude Skills for the US Federal capture and proposal lifecycle" width="100%"></p>
+
 # GovCon Pursuit Brain
 
 A wiki-native set of [Claude Skills](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview)
@@ -92,6 +94,8 @@ knowledge is compiled into a maintained, interlinked wiki, not rediscovered
 from raw documents on every query. See [docs/architecture.md](docs/architecture.md).
 
 ## The three layers
+
+<p align="center"><img src="images/architecture.png" alt="Three layers: Schemas govern the Wikis, which compile from Raw sources" width="720"></p>
 
 | Layer | What it is | Where it lives |
 |---|---|---|
