@@ -1,0 +1,16 @@
+# Pursuit wikis — never commit live pursuit data.
+# A pursuit wiki holds customer intelligence, competitor analysis, pricing,
+# and may hold CUI or source-selection-sensitive material.
+pursuits/
+*.pursuit/
+
+# Built standalone skill packages
+dist/
+
+# Obsidian local vault state (workspace, plugin settings)
+.obsidian/
+
+# Local scratch
+.DS_Store
+*.tmp
+scratch/

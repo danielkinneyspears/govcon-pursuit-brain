@@ -1,0 +1,18 @@
+{
+  "name": "govcon-pursuit-brain",
+  "owner": {
+    "name": "Daniel Kinney-Spears",
+    "url": "https://github.com/danielkinneyspears"
+  },
+  "metadata": {
+    "description": "A wiki-native Claude Skills package for the US Federal capture and proposal lifecycle.",
+    "version": "0.2.4"
+  },
+  "plugins": [
+    {
+      "name": "govcon-pursuit-brain",
+      "source": "./",
+      "description": "Skills that compile and maintain a per-pursuit knowledge wiki for US Federal capture and proposals, and render proposal artifacts as views over the entity graph."
+    }
+  ]
+}

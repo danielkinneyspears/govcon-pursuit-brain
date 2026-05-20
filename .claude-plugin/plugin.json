@@ -1,0 +1,21 @@
+{
+  "name": "govcon-pursuit-brain",
+  "version": "0.2.4",
+  "description": "A wiki-native Claude Skills package for the US Federal capture and proposal lifecycle. Instead of producing flat artifacts, the skills compile and maintain a per-pursuit knowledge wiki — an interlinked graph of entity pages for the customer, competitors, requirements, win themes, risks, and more — and render the familiar proposal artifacts as views over that graph. Built on Andrej Karpathy's LLM Wiki pattern. Sibling to the artifact-pipeline package federal-proposal-skills.",
+  "author": {
+    "name": "Daniel Kinney-Spears"
+  },
+  "homepage": "https://github.com/danielkinneyspears/govcon-pursuit-brain",
+  "repository": "https://github.com/danielkinneyspears/govcon-pursuit-brain",
+  "license": "Apache-2.0",
+  "keywords": [
+    "federal",
+    "govcon",
+    "proposal",
+    "capture-management",
+    "llm-wiki",
+    "knowledge-graph",
+    "pursuit-brain",
+    "shipley"
+  ]
+}
