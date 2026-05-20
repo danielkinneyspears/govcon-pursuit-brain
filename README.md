@@ -139,15 +139,39 @@ The full guide and template live at:
 
 ## Install
 
-Claude Code (recommended):
+This package is wiki-native and ships its full `knowledge/`, `conventions/`,
+and `schema/` directories alongside the skills. The package is installed whole,
+in Claude Code.
+
+In a Claude Code session, run these two commands one at a time (wait for the
+marketplace add to confirm before running install):
 
 ```
-/plugin marketplace add danielkinneyspears/govcon-pursuit-brain
+/plugin marketplace add https://github.com/danielkinneyspears/govcon-pursuit-brain.git
+```
+
+```
 /plugin install govcon-pursuit-brain@govcon-pursuit-brain
 ```
 
-The skills reference the shared `knowledge/`, `conventions/`, and `schema/`
-directories, so the package is installed whole.
+Note the explicit `https://` URL with the `.git` suffix. Claude Code's
+`owner/repo` shorthand defaults to SSH, which fails on machines without
+GitHub SSH keys configured. The full HTTPS URL avoids that.
+
+To verify or troubleshoot:
+
+```
+/plugin marketplace list        # confirm the marketplace was added
+/plugin                          # browse Discover tab; UI install
+/reload-plugins                  # activate after install
+```
+
+**Claude.ai and the Claude desktop app do not have a plugin-marketplace
+concept** and won't run this package as-is. The wiki substrate
+(`knowledge/`, the per-pursuit wiki, the cross-skill graph) depends on the
+file layout that Claude Code's plugin install gives you. If you only have
+Claude.ai, the [sibling package `federal-proposal-skills`](https://github.com/danielkinneyspears/federal-proposal-skills)
+ships per-skill zips you can upload via Settings → Capabilities → Skills.
 
 ## Important limits, read before use
 
