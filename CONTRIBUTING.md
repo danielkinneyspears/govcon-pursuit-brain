@@ -16,6 +16,11 @@ optional.
 Do not commit real solicitation text, real competitor data, or proprietary or
 sensitive material. Use synthetic examples only.
 
+For new skill proposals, start with
+[docs/skill-expansion-template.md](docs/skill-expansion-template.md) so the
+canonical job, entity changes, rendered views, metadata obligations,
+evaluations, and validator implications are explicit before implementation.
+
 ## Authoring conventions
 
 - **Skills** follow the same discipline as the sibling package

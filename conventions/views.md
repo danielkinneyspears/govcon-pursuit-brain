@@ -60,6 +60,9 @@ deliverables:
 
 A skill owns the views it renders and re-renders them whenever the entities
 behind them change.
+For the current view contract index, including the example-backed
+`bid-decision.md` contract and planned view stubs, see
+[../docs/view-contract-index.md](../docs/view-contract-index.md).
 
 ## Rendering a view
 

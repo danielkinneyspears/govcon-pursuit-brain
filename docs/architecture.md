@@ -123,6 +123,8 @@ legible and keeps it consistent.
 - A pursuit's `pursuit.md`: the pursuit wiki's schema *and* its index. What this opportunity is, the pursuit posture (incumbent, challenger, teaming partner), the conventions in force, the sensitivity rules, and how to resolve conflicting information. Every skill reads `pursuit.md` first.
 
 The per-pursuit schema is created from `schema/pursuit-schema.template.md`.
+For the boundary between scripted validation, documented conventions, and
+human review, see [validator-coverage-map.md](validator-coverage-map.md).
 
 ## The pursuit wiki entity model
 
