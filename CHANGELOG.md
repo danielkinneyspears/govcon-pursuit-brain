@@ -3,6 +3,17 @@
 All notable changes to this package are documented here. Format loosely follows
 [Keep a Changelog](https://keepachangelog.com/); versions follow semantic versioning.
 
+## [0.2.6] — 2026-10-04
+
+### Fixed
+- **`gsa-mas`**: corrects three errors introduced in 0.2.5. The economic
+  price adjustment clause is GSAR 552.238-120 (not 552.238-210). Refresh 32
+  did not add joint venture rules; they were deferred. The mass mod
+  acceptance window is set per refresh (30 days for Refresh 32, 90 days in
+  Refresh 33's advance notice), not 30 days from now on. Adds the Startup
+  Springboard limit to FASt Lane participants. Checked against the June
+  2026 MAS solicitation and Modification Guide.
+
 ## [0.2.5] — 2026-10-04
 
 Domain-wiki refresh for 2026 rule changes. Five pages corrected, two added.

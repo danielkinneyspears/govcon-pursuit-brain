@@ -6,7 +6,7 @@ tags:
   - vehicles
 status: stable
 sensitivity: public
-source: GSA MAS program (gsa.gov); MAS solicitation Refreshes 31–33 and GSA Class Deviation 2026-02; FAR Subpart 8.4; Holland & Knight, "Goodbye PRC, Hello TDR" (2026-02); GSA Interact MAS notices
+source: GSA MAS solicitation SCP-FSS-001 (JUN 2026); GSA MAS Modification Guide (June 2026); GSA Class Deviation 2026-02; FAR Subpart 8.4; Holland & Knight, "Goodbye PRC, Hello TDR" (2026-02); trade summaries of GSA Interact refresh notices
 confidence: high
 updated: 2026-10-04
 provenance: domain-wiki-refresh / 2026-10-04
@@ -42,24 +42,28 @@ Schedule procedures of FAR Subpart 8.4 (not the full FAR Part 15 process).
 
 ## 2026 program changes
 
-- **Refresh 31 (April 2026)**, implementing GSA Class Deviation 2026-02:
+- **Refresh 31 (issued 2026-04-02)**, implementing GSA Class Deviation
+  2026-02:
   - **Transactional Data Reporting (TDR) is mandatory for all SINs.**
     Reports are monthly, due 30 days after month end.
   - **Commercial Sales Practices (CSP-1) disclosures and Most Favored
     Customer information are no longer required.**
-  - **The old Price Reductions Clause is removed** and replaced by a
-    version consistent with TDR. Old-clause liability ends at the start of
-    the reporting quarter after the contractor accepts the TDR mod.
-  - Existing holders got Mass Mod A909 plus a TDR modification, with 90
-    days to accept.
-- **Refresh 32 (June 2026)**, Mass Mod A917: implements EO 14398 (DEI
-  policies), adds rules for joint venture offers and End-of-Support
-  products, and **cuts the mass mod acceptance window to 30 days**.
-- **Refresh 33 (scheduled October 2026):** includes three new subgroups
-  under SIN 517312 Wireless Mobility Solutions.
-- Standing changes: EPA clauses consolidated into GSAR 552.238-210; the
-  Order-Level Materials cap removed; price proposals moving to the FAS
-  Catalog Platform.
+  - **The old Price Reductions Clause is replaced** by a version consistent
+    with TDR.
+  - **Startup Springboard is limited to FASt Lane participants.** Without
+    it, two years of corporate experience is required.
+- **Refresh 32 (issued 2026-06-04/05):** a DEI clause implementing EO 14398,
+  End-of-Support rules for hardware and software, and limits on using the
+  past performance of predecessors and key personnel. Its mass modification
+  had a **30-day** acceptance window. Joint venture changes were announced
+  and then deferred.
+- **Refresh 33 (scheduled October 2026):** GSA's advance notice describes a
+  supply-chain security clause and a **90-day** acceptance window. The
+  window is set per mass mod; read the date on the mod.
+- Standing rules: the economic price adjustment clause is **GSAR
+  552.238-120** (added in Refresh 29); Order-Level Materials are available
+  for all SINs; overdue mass mods block other modifications and option
+  exercise.
 - GSA has been consolidating other vehicles (NASA SEWP, NITAAC IT GWACs)
   under its management.
 
