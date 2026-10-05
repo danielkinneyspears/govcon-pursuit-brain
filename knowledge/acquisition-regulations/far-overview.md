@@ -6,12 +6,12 @@ tags:
   - acquisition-regulations
 status: stable
 sensitivity: public
-source: FAR (acquisition.gov/far); 48 CFR Chapter 1
+source: FAR (acquisition.gov/far); 48 CFR Chapter 1; EO 14275 and the FAR Council's RFO deviations and proposed rules (2025–2026)
 confidence: high
-updated: 2026-05-19
-provenance: domain-wiki-build-v0.2.0 / 2026-05-19
-last_verified: 2026-05-19
-next_review_due: 2027-05-19
+updated: 2026-10-04
+provenance: domain-wiki-refresh / 2026-10-04
+last_verified: 2026-10-04
+next_review_due: 2027-01-04
 ---
 
 # Federal Acquisition Regulation (FAR) — Overview
@@ -44,6 +44,13 @@ the proposal lifecycle:
 | 42 | Contract Administration and Audit Services (includes [[cpars]]) |
 | 52 | Solicitation Provisions and Contract Clauses |
 
+> [!warning] Being rewritten
+> The whole FAR is being rewritten under the [[revolutionary-far-overhaul]].
+> Each agency has adopted replacement text for each part by class deviation,
+> and proposed rules to make it permanent were published in 2026. Section
+> numbers have changed in several parts. Check which text the buying agency
+> is using.
+
 ## Agency supplements
 
 Many agencies maintain their own supplements that add to (and sometimes
@@ -63,3 +70,4 @@ controls where it adds requirements beyond the FAR.
 - governs [[fair-opportunity-far-16-505]]
 - defines [[procurement-integrity-act]]
 - governs protests via [[gao-bid-protest]] and [[court-of-federal-claims-protest]]
+- being rewritten by [[revolutionary-far-overhaul]]

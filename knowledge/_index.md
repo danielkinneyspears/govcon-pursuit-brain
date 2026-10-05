@@ -21,6 +21,7 @@ wiki's conventions and the precedence rule, and
 ## Acquisition Regulations
 
 - [[far-overview]]
+- [[revolutionary-far-overhaul]]
 - [[far-part-12-commercial]]
 - [[far-part-13-simplified-acquisition]]
 - [[far-part-16-types-of-contracts]]
@@ -79,6 +80,7 @@ wiki's conventions and the precedence rule, and
 
 - [[set-aside-overview]]
 - [[size-standards-and-naics]]
+- [[sbir-sttr-program]]
 - [[8a-program]]
 - [[sdvosb]]
 - [[wosb-edwosb]]

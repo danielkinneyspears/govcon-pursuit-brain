@@ -14,7 +14,7 @@ private and pairs with this package; see
 Same lifecycle, same domain rigor, same guardrails as the sibling package
 `federal-proposal-skills`, with a different architecture underneath.
 
-> **Status: v0.2.4.** The three-layer architecture, the conventions, the
+> **Status: v0.2.5.** The three-layer architecture, the conventions, the
 > per-pursuit schema, and two proof skills (`qualifying-opportunities`,
 > `analyzing-competitors`) are complete. The domain wiki is a
 > comprehensive, Obsidian-compatible vault of 93 sourced entity pages

@@ -3,6 +3,34 @@
 All notable changes to this package are documented here. Format loosely follows
 [Keep a Changelog](https://keepachangelog.com/); versions follow semantic versioning.
 
+## [0.2.5] — 2026-10-04
+
+Domain-wiki refresh for 2026 rule changes. Five pages corrected, two added.
+
+### Fixed
+- **`fair-opportunity-far-16-505`**: the enhanced fair opportunity threshold
+  is $7.5 million (the page said $6 million, the figure before 2025-10-01).
+  Rewritten for the FAR overhaul's Part 16 deviation, which moved fair
+  opportunity to 16.507. The page id is unchanged so existing links work.
+- **`task-order-protest-rights`**: the GAO threshold for DoD task order
+  protests is $35 million (the page said $25 million; raised by FY2025 NDAA
+  section 885). Adds the ombudsman route and the 16.508 citation.
+- **`gsa-mas`**: MAS Refreshes 31–33. Transactional Data Reporting is
+  mandatory for all SINs, the CSP-1 disclosure and the old Price Reductions
+  Clause are removed, and mass mods now have a 30-day acceptance window.
+- **`far-overview`** and **`far-part-16-types-of-contracts`**: note the FAR
+  overhaul and the 16.505 → 16.506 / 16.507 / 16.508 split.
+
+### Added
+- **`revolutionary-far-overhaul`**: EO 14275, the agency class deviations,
+  the 2026 proposed rules, and what they mean for a pursuit.
+- **`sbir-sttr-program`**: the 2025–2026 lapse, the April 2026
+  reauthorization through 2031, and DoD's 2026 SBIR CSO.
+
+### Known
+- 39 other pages are past their `next_review_due` date of 2026-08-19 and
+  have not been re-verified. Run `scripts/freshness_audit.py` for the list.
+
 ## [0.2.4] — unreleased
 
 Internal-review cleanup. Four small fixes from a cross-package audit.
